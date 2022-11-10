@@ -1,0 +1,149 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.inner-container {
+  width: 100%;
+  height: 100%;
+}
+
+.header {
+  display: flex;
+  width: 100%;
+  height: 7%;
+  background-color: #015c77;
+  align-items: center;
+  justify-content: right;
+  gap: 20px;
+  padding-right: 50px;
+}
+
+.share-btn {
+  background-color: #e5e5e5;
+  color: #000000;
+  padding: 7px 20px 7px 20px;
+  border-radius: 20px;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.header-text {
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.middle-container {
+  height: 83%;
+  width: 100%;
+  display: flex;
+}
+
+.center-content {
+  width: 100%;
+}
+
+.top-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 25%;
+  background-color: #008081;
+  color: #012734;
+  font-size: 32px;
+  font-weight: 700;
+}
+
+.middle {
+  display: flex;
+  width: 100%;
+  height: 62.5%;
+}
+
+.middle-content1 {
+  display: flex;
+  width: 35%;
+  height: 100%;
+  background-color: #fe6347;
+  color: #012734;
+  font-size: 32px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+}
+
+.middle-content2 {
+  display: flex;
+  width: 30%;
+  height: 100%;
+  background-color: #ffff00;
+  color: #012734;
+  font-size: 32px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: left;
+}
+
+.middle-content3 {
+  display: flex;
+  width: 35%;
+  height: 100%;
+  background-color: #9acd32;
+  color: #012734;
+  font-size: 48px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+}
+
+.bottom-content {
+  display: flex;
+  width: 100%;
+  height: 12.5%;
+  background-color: #ee82ef;
+  color: #012734;
+  font-size: 32px;
+  font-weight: 700;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-bar {
+  display: flex;
+  width: 20%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.side-bar-content {
+  display: flex;
+  width: 100%;
+  height: 12.5%;
+  color: #012734;
+  font-size: 24px;
+  font-weight: 500;
+  background-color: #fafcf7;
+  border-bottom: 1px solid #252525;
+  align-items: center;
+  justify-content: left;
+  padding-left: 20px;
+}
+
+.footer {
+  gap: 20px;
+  display: flex;
+  width: 100%;
+  height: 10%;
+  background-color: #012734;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-text {
+  color: #ffffff;
+  cursor: pointer;
+}
