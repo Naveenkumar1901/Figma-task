@@ -11,6 +11,7 @@ const breadCrum = [
   },
   {
     header: 'Report & Resources',
+
     footer: 'Terms & condition',
   },
   {
